@@ -1,0 +1,24 @@
+#Maindiv{
+  width: 20vw;
+  margin-top: 50vh;
+  height: auto;
+  border: 0.2vw solid black;
+  margin: auto;
+  border-radius: 1vh;
+  background-image: linear-gradient(pink,skyblue);
+}
+input{
+  margin-left: 2vw;
+  height: 2vh;
+}
+h1{
+  margin-left: 6vw;
+}
+#delete{
+  margin-left: 4vw;
+  border: 2px;
+}
+#update,#submit{
+  border: 2px;
+  margin-left: 4px;
+}
