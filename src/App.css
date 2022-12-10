@@ -1,24 +1,59 @@
-#Maindiv{
-  width: 20vw;
-  margin-top: 50vh;
-  height: auto;
-  border: 0.2vw solid black;
-  margin: auto;
-  border-radius: 1vh;
-  background-image: linear-gradient(pink,skyblue);
+*{
+  background-color: rgb(187, 228, 228);
+}
+#search{
+  width: 20vh;
+  height: 2vw;
+  margin-left: 40vw;
+  border: 2px solid black;
+  border-radius: 6px;
+  background-color: aliceblue;
+}
+#search1{
+  background-color: rgb(141, 151, 151);
+  width: 20vh;
+  height: 2.5vw;
+  margin-left: 2vw;
+  border: 2px solid black;
+  border-radius: 6px;
 }
 input{
+  margin: 10px;
+  width: 40vh;
+  border-radius: 4px;
+  height: 2vw;
+  background-color: white;
+}
+button{
+  background-color: rgb(141, 151, 151);
+  width: 30vh;
+  height: 2.5vw;
   margin-left: 2vw;
-  height: 2vh;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+button:hover{
+  box-shadow: 2px 2px 2px 2px black;
 }
 h1{
-  margin-left: 6vw;
+  margin-left: 39vw;
+  font-size: 2.0vw;
+  color: red;
 }
-#delete{
-  margin-left: 4vw;
-  border: 2px;
+table{
+  width: 60vw;
+  height: auto;
+  border: 1px solid black;
+  text-align: center;
+  margin: auto;
+  margin-top: 5vh;
 }
-#update,#submit{
-  border: 2px;
-  margin-left: 4px;
+td,th{
+  border: 1px solid black;
+  width: 7vh;
+}
+hr{
+  background-color: black;
+  margin-top: 30px;
+  height: 0.5vh;
 }
